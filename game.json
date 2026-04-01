@@ -1,0 +1,8 @@
+{
+  "title": "Google Solitaire",
+  "description": "Play the classic Klondike Solitaire card game.",
+  "keywords": ["solitaire", "cards", "klondike", "puzzle", "casual"],
+  "category": "Card",
+  "author": "PewPlay",
+  "playMode": "SinglePlayer"
+}
