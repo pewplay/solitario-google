@@ -1,8 +1,61 @@
 {
-  "title": "Google Solitaire",
-  "description": "Play the classic Klondike Solitaire card game.",
-  "keywords": ["solitaire", "cards", "klondike", "puzzle", "casual"],
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Modern Solitaire",
+  "description": "Drag cards across a bright, flat-design table in this free Klondike Solitaire for your browser, with Easy one-card and Hard three-card draw.",
+  "about": "Modern Solitaire is Klondike with a clean, colorful makeover: flat illustrated cards, smooth dealing animations and a simple layout that fits both wide screens and phones held upright. Pick up a card or a whole run with your mouse or finger and drop it where it belongs.\n\nBefore each deal you choose a difficulty. Easy mode turns over one card at a time from the stock, so you see every card on each pass, while Hard mode deals three at once and only the top one is playable, which makes planning ahead far more important. A timer, score and move counter track your game, Undo takes back a mistake, and New starts a fresh deal whenever you like.\n\nFill all four foundations from Ace to King to win and see the celebration screen. It is a relaxing classic for beginners, with a tougher mode waiting when you want more of a challenge.",
+  "howToPlay": "Move all 52 cards to the four foundations, building each suit from Ace up to King. In the seven tableau columns, stack cards in descending order with alternating colors, and only move Kings into empty columns. Click the stock to turn over new cards when you run out of moves.",
+  "controls": [
+    {
+      "input": "Drag",
+      "action": "Move a card or a run of cards"
+    },
+    {
+      "input": "Click / Tap stock",
+      "action": "Turn over new cards"
+    },
+    {
+      "input": "Undo",
+      "action": "Take back the last move"
+    },
+    {
+      "input": "New",
+      "action": "Start a new game and pick Easy or Hard"
+    }
+  ],
+  "tips": [
+    "Send Aces and Twos to the foundations as soon as they appear.",
+    "Prefer moves that uncover face-down cards in the longest columns.",
+    "Only empty a column if you have a King ready to move into it.",
+    "In Hard mode, think about which card will be on top after the next three-card deal before you play from the waste."
+  ],
+  "faq": [
+    {
+      "question": "Is Modern Solitaire free to play?",
+      "answer": "Yes. Modern Solitaire is completely free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. You drag cards with your finger, and in portrait mode the table switches to a layout made for tall screens."
+    },
+    {
+      "question": "What is the difference between Easy and Hard?",
+      "answer": "Easy turns over one card at a time from the stock, while Hard turns over three and lets you play only the top one, so fewer cards are within reach."
+    }
+  ],
   "category": "Card",
+  "tags": [
+    "solitaire",
+    "klondike",
+    "card game",
+    "patience",
+    "draw three"
+  ],
   "author": "PewPlay",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png"
+  ]
 }
