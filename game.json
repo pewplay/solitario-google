@@ -2,6 +2,36 @@
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Google Solitaire",
   "description": "Play the classic Klondike Solitaire card game.",
+  "about": "Google Solitaire is a browser game where you move cards between columns and foundations to complete Klondike Solitaire. Choose Easy or Hard to begin.\n\nStart a round in your browser and use the controls below to play.",
+  "howToPlay": "Move cards between columns and foundations to complete Klondike Solitaire. Choose Easy or Hard to begin.",
+  "controls": [
+    {
+      "input": "Click / drag",
+      "action": "Move cards"
+    },
+    {
+      "input": "Undo",
+      "action": "Take back a move"
+    },
+    {
+      "input": "New",
+      "action": "Start a new deal"
+    }
+  ],
+  "tips": [
+    "Use click / drag to move cards.",
+    "Try another round to practice the timing and strategy."
+  ],
+  "faq": [
+    {
+      "question": "How do I play Google Solitaire?",
+      "answer": "Move cards between columns and foundations to complete Klondike Solitaire. Choose Easy or Hard to begin."
+    },
+    {
+      "question": "Can I play Google Solitaire in a browser?",
+      "answer": "Yes. Open the game page and play without installing an app."
+    }
+  ],
   "category": "Card",
   "tags": [
     "solitaire",
@@ -10,6 +40,9 @@
     "puzzle",
     "casual"
   ],
-  "author": "PewPlay",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "draft": true,
+  "author": "PewPlay"
 }
